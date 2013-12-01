@@ -1,0 +1,40 @@
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+	font-family: Helvetica;
+	color:#FFF;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	text-shadow:0 0 10px rgba(0,0,0,0.3);
+
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+
+/* Define backgrounds dos divs */
+#header {background-image: url(img/capa.jpg);}
+#simulados {background-image: url(img/simulados.jpg);}
+#fotos {background-image: url(img/fotos.jpg);}
+#contato {background-image: url(img/contato.jpg);}
+#projetos {background-image: url(img/projetos.jpg);}
+
+/** Formata o article que vai o texto **/
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+}
+
+/** formata texto **/
+#header article h1 {color: #262626; font-size: 40px;}
+article h1 {font-size:50px; }
+article p {line-height: 30px; font-size:20px; margin-top:15px;}
+article p a {color:#FFF; text-decoration:none; font-size:30px;}
