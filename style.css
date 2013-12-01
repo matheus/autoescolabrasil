@@ -36,8 +36,11 @@ html, body {height:100%;}
 /** formata texto **/
 #header article h1 {color: #262626; font-size: 40px;}
 article h1 {font-size:50px; }
+article h1 a {color:#FFF; text-decoration:none;}
+article h1 a:hover {color:red; text-decoration:none;}
 article p {line-height: 30px; font-size:20px; margin-top:15px;}
 article p a {color:#FFF; text-decoration:none; font-size:30px;}
+article p a:hover {color:red; text-decoration:none; font-size:30px;}
 
 .scroll {
 	background:#fff;
