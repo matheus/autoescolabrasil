@@ -117,10 +117,10 @@ nav .logo {
   float: left;
 }
 nav .logo a{
-  width: 136px;
-  height: 36px;
+  width: 200px;
+  height: 34px;
   background: url(../img/logo.png);
-  background-size: 136px 36px;
+  background-size: 200px 34px;
   display: block;
 }
 nav .logo a img{
