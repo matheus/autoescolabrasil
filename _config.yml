@@ -1,0 +1,14 @@
+name: Júlia e Matheus
+description: "... O amor tudo sofre, tudo crê, tudo espera, tudo suporta..."
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 15
+
+cover: "/assets/images/cover.jpg"
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Your Name'
