@@ -1,30 +1,8 @@
-# Kasper
+# Autoescola Brasil
 
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
-
-## How to use it
-
-Simply clone this repository, and then run `jekyll -w serve` inside the directory.
-
-Kasper theme includes:
-
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
-
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+Site da autoescola brasil feito com amor usando Ruby + Jekyll
 
 
-## Thanks 
-Most of the work as been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things for specifid to Jekyll and some minor style changes.
 
 ## Copyright & License
 
