@@ -3,7 +3,7 @@ body {
   *zoom: 1;
   font-family: 'Source Sans Pro', sans-serif;
   background:transparent;
-  
+
 }
 body:before, body:after {
   content: "";
@@ -27,12 +27,13 @@ body:after {
   clear: both;
 }
 a, a:visited, a:active {
+  text-decoration: none;
  color:#13c4a5;
 }
 a:hover { color:#777;}
 html{
     -webkit-font-smoothing: antialiased;
-	
+
     /*font-smooth: always ;
     text-rendering: optimizeLegibility;
 	text-shadow: 0 0 1px rgba(255,255,255,1);*/
@@ -56,7 +57,7 @@ section:after, header:after {
 }
 
 .sectiongrey { background: #f5f6f7; }
-.sectiongreen {background:#13c4a5;} 
+.sectiongreen {background:#13c4a5;}
 .sectiongreen h2, .sectiongreen h1, .sectiongreen p { color:#fff; }
 .sectiongreen a{color:#0d803e;}
 
@@ -72,7 +73,7 @@ section:after, header:after {
 top: 0px;
  /* background-color: #015289;
   border-bottom: 2px solid #003355;*/
-  background:#fff; 
+  background:#fff;
   border-bottom: 1px solid #d1d4d7;
 box-shadow: 0 0 5px rgba(0,0,0,.1);
 
@@ -110,7 +111,7 @@ nav {
   height: 36px;
   padding: 0 0 22px 0;
 
-  
+
 }
 nav .logo {
   margin-left: 8.38%;
@@ -165,7 +166,7 @@ header {
   text-align: center;
  background-color: #13c4a5;
   margin-top: 0px;
-	
+
  background-position: center top;
 	   -moz-background-size: 1360px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
 		 -o-background-size: 1360px auto;           /* Opera 9.5 */
@@ -182,7 +183,7 @@ header .content {
   width: 100%;
   *zoom: 1;
   padding: 107px 0;
-  
+
 }
 header a { color:#fff !important;}
 .border-header{
@@ -247,12 +248,12 @@ header .content ul li a {
   display: block;
   color: #323232;
   text-decoration: none;
- 
+
   line-height: 49px;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
-  
+
 }
 header .content ul li a:hover {
 
@@ -294,7 +295,7 @@ header .content ul li a.cta:hover {
   line-height: 22px;
   text-decoration: none;
   text-shadow: none;
- 
+
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -856,7 +857,7 @@ address ul li a {
   text-decoration: none;
 }
 footer {
-  
+
   padding-top: 25px;
   *zoom: 1;
 }
@@ -934,7 +935,7 @@ footer .left-content .multilanguage ul li a.current {
   color: #666666;
 }
 footer .right-content {
-  
+
   margin-right: 66px;
   *zoom: 1;
   float: right;
@@ -959,7 +960,7 @@ footer .right-content ul li {
   width: 22px;
   color: #ffffff;
   margin: 0 10px;
-  
+
 }
 footer .right-content ul li a {
   text-decoration: none;
@@ -1043,7 +1044,7 @@ nav .logo {
 }
 nav ul li a {
   width: 100px;
-} 
+}
 
  header .content {
     padding-bottom: 66px;
@@ -1053,7 +1054,7 @@ nav ul li a {
   }
   header .content ul li {
     min-width: 50%;
-	
+
 }
   section h2 {
     font-size: 25px;
@@ -1085,7 +1086,7 @@ nav ul li a {
     width: 47.023809523809526%;
     margin: 0 1.488095238095238%;
     height: 315px;
-	
+
   }
   #testimonials ul {
     position: relative;
@@ -1191,7 +1192,7 @@ nav ul li a {
 
 	}
 }
-@media only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) { 
+@media only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
 	#footer{padding-bottom:0}
 }
 @media screen and (max-width: 600px) {
@@ -1203,7 +1204,7 @@ nav ul li a {
     display: none;
   }
   #top {
-   
+
     padding-top: 14px;
     margin-top: 0;
   }
@@ -1223,7 +1224,7 @@ nav ul li a {
   header {
     margin-top: 60px;
   }
- 
+
   header .content {
     padding: 70px 0 35px 0;
   }
@@ -1324,7 +1325,7 @@ nav ul li a {
 }
 #thanks .thanks-txt figure {
   background-color: transparent;
-  
+
 }
 #thanks .thanks-txt {
   width: 97%;
@@ -1481,7 +1482,7 @@ nav ul li a {
 }
 #hello-bar #close-bar{
   margin-top: -26px;
-}  
+}
 header .content ul li {
     width: 97.023809523809526%;
     margin: 0 1.488095238095238% 15px;
